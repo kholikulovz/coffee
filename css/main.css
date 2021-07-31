@@ -469,7 +469,7 @@ li {
   }
 
   .section__box {
-    padding: 0 40px 144px 0;
+    padding: 0 40px 144px 40px;
   }
   .section__box-card {
     width: 688px;
