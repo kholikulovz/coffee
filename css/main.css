@@ -40,6 +40,9 @@ li {
 }
 
 /* --------------------------- Header Start -------------------- */
+.header__label {
+  display: none;
+}
 .header__nav {
   display: flex;
   align-items: center;
@@ -629,6 +632,11 @@ li {
     padding: 32px 24px 40px 24px;
   }
   .header__nav-menu {
+    position: absolute;
+    right: 0;
+    top: 112px;
+    text-align: right;
+    background-color: #FEFCF7;
     display: none;
   }
   .header__nav-item {
@@ -668,6 +676,22 @@ li {
     line-height: 25px;
     text-align: center;
     margin-bottom: 40px;
+  }
+  .header__label {
+    display: block;
+  }
+  .header__checkbox {
+    clip: rect(0 0 0 0);
+    -webkit-clip-path: inset(50%);
+            clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+  .header__checkbox:checked ~ .header__nav-menu {
+    display: block;
   }
 
   .section__card {

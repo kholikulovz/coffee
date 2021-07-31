@@ -1,5 +1,5 @@
 @media screen and (max-width: 375px) {
-    .header{
+    .header{     
         &__nav{
             display: flex;
             align-items: center;
@@ -8,6 +8,11 @@
             
             
             &-menu{
+                position: absolute;
+                right: 0;
+                top: 112px;
+                text-align: right;
+                background-color: #FEFCF7;
                 display: none;
             }
             &-item{
@@ -53,8 +58,24 @@
             }
             
         }
-        
-    }
+        &__label{
+            display: block;
+        }
+        &__checkbox{
+            clip: rect(0 0 0 0);
+            clip-path: inset(50%);
+            height: 1px;
+            overflow: hidden;
+            position: absolute;
+            white-space: nowrap;
+            width: 1px;
+            
+            &:checked ~ .header__nav-menu {
+                display: block;
+            }
+        }   
+    } 
+    
     .section__card{
         width: 375px;
         // height: 450px;
