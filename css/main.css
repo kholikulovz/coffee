@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  width: 1440px;
+  width: 100%;
   margin: 0 auto;
   padding: 0;
 }
@@ -833,7 +833,7 @@ li {
   }
   .section__card-box {
     height: 196px;
-    width: 689px;
+    width: 285px;
     /* left: 180px; */
     background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) -8.67%, #FEFCF7 91.33%);
   }
