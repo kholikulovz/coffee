@@ -1,0 +1,106 @@
+@media screen and (max-width: 768px) {
+    // -----------------------------------------------
+    .about__intro{
+        margin-bottom: 144px;
+        padding: 127px 233px 126px 58px;
+        width: 689px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        
+        &-title{
+            font-size: 32px;
+            line-height: 40px;
+            
+        }
+        &-text{
+            font-size: 15px;
+            line-height: 25px;
+            opacity: 0.8;
+        }
+    }
+    // ---------------------------------------------------------------
+    .commitment{
+        margin: 0 auto;
+        margin-bottom: 304px;
+        width: 689px;
+        display: flex;
+        align-items: center;
+        
+        &__img{
+            width: 281px;
+            height: 470px;
+            margin-right: 69px;
+        }
+        &__title{
+            font-size: 32px;
+            line-height: 48px;
+            margin-bottom: 30px;
+        }
+        &__text{
+            font-size: 15px;
+            line-height: 26px;
+        }
+    }
+    // ---------------------------------------------------------------
+    .quality{
+        margin: 0 auto;
+        margin-bottom: 168px;
+        padding: 74px;
+        padding-top: 224px;
+        width: 688px;
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        
+        &__card{
+            margin-top: 64px;
+            margin-right: 0;
+            width: 540px;
+        }
+        &__img{
+            background-position:center;
+            width: 573px;
+            height: 320px;
+            margin-top: -400px;
+            
+        }
+        &__title{
+            font-size: 32px;
+            line-height: 48px;
+            margin-bottom: 24px;
+            text-align: center;
+        }
+        &__text{
+            font-size: 16px;
+            line-height: 26px;
+            text-align: center;
+        }
+    }
+    
+    // ---------------------------------------------------
+    .quarters{
+        margin: 0 auto;
+        width: 688px;
+        margin-bottom: 144px;
+        
+        &__list{
+            display: flex;
+            align-items: center;
+        }
+        &__item{
+            width: 33.3%;
+            margin-right: 10px;
+            align-items: baseline;
+            
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+        &__subtitle{
+            font-size: 24px;
+            line-height: 36px;
+            margin-bottom: 21px;
+        }
+    }
+}

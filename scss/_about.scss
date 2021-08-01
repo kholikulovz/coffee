@@ -1,0 +1,120 @@
+// -----------------------------------------------
+.about__intro{
+    margin: 0 auto;
+    margin-bottom: 168px;
+    padding: 137px 750px 137px 85px;
+    width: 1280px;
+    background-image: url('../img/about-intro.png');
+    
+    &-title{
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #FEFCF7;
+        margin-top: 0;
+        margin-bottom: 24px;
+    }
+    &-text{
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFCF7;
+    }
+}
+// ---------------------------------------------------------------
+.commitment{
+    margin: 0 auto;
+    margin-bottom: 256px;
+    width: 1110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    &__img{
+        margin-right: 125px;
+    }
+    &__title{
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #333D4B;
+        margin-bottom: 32px;
+    }
+    &__text{
+        font-size: 15px;
+        line-height: 25px;
+        color: #333D4B;
+        opacity: 0.8;
+    }
+}
+// ---------------------------------------------------------------
+.quality{
+    margin: 0 auto;
+    margin-bottom: 168px;
+    padding: 88px;
+    width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #2C343E;
+    border-radius: 10px;
+    
+    &__card{
+        margin-right: 125px;
+        width: 540px;
+    }
+    &__img{
+        margin-top: -200px;
+    }
+    &__title{
+        font-size: 40px;
+        line-height: 48px;
+        color: #FEFCF7;
+        margin-bottom: 32px;
+    }
+    &__text{
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFCF7;
+        opacity: 0.8;
+    }
+}
+// -------------------------------------------------
+.quarters{
+    margin: 0 auto;
+    width: 1045px;
+    margin-bottom: 168px;
+    
+    &__title{
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+        margin-bottom: 72px;
+    }
+    &__list{
+        display: flex;
+        align-items: center;
+    }
+    &__item{
+        width: 33.3%;
+        margin-right: 95px;
+        align-items: baseline;
+        
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+    &__subtitle{
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        margin-top: 48px;
+        margin-bottom: 24px;
+        color: #333D4B;
+    }
+    &__subitem{
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+    }
+}
