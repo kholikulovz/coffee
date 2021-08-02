@@ -114,9 +114,10 @@
         
         &-card{
             width: 688px;
-            height: 863px;
+            // height: 863px;
             background: #2C343E;
             border-radius: 10px;
+            box-sizing: border-box;
             padding: 56px 74px 368px 74px;
         }
         &-title{

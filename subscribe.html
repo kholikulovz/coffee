@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="about.html">
-    <link rel="stylesheet" href="subscribe.html">
+    <link rel="stylesheet" href="index.html">
 </head>
 <body>
     <header class="header">
@@ -21,7 +21,7 @@
                 </a>
                 <input class="header__checkbox" id="x" type="checkbox">
                 <label class="header__label" for="x"> 
-                <span class="bar"><i class="fas fa-align-justify fa-2x"></i></span>
+                    <span class="bar"><i class="fas fa-align-justify fa-2x"></i></span>
                 </label>
                 <ul class="header__nav-menu">
                     <li class="header__nav-item">
@@ -40,49 +40,262 @@
     <main>
         <div class="container">
             <section class="subscribe__intro">
-                <h1 class="subscribe__intro-title">Create a plan.</h1>
+                <h1 class="subscribe__intro-title">Create a plan</h1>
                 <p class="subscribe__intro-text">Build a subscription plan that best fits your needs. We offer an assortment of the best artisan coffees from around the globe delivered fresh to your door.</p>
             </section>
-        </div>
-    </main>
-
-    <footer class="footer">
-        <div class="container">
-            <nav class="footer__nav">
-                <a href="index.html">
-                    <img class="footer__nav-logo" src="./img/footer-logo.svg" alt="">
-                </a>
+            <section class="line">
+                <div class="line__line">
+                    <span class="line__circle"></span>
+                    <span class="line__circle"></span>
+                    <span class="line__circle"></span>
+                </div>
+                <ul class="line__menu">
+                    <li class="line__item">
+                        <h2 class="line__number">01</h2>
+                        <h3 class="line__subtitle">Pick your coffee</h3>
+                        <p class="line__subtext">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
+                    </li>
+                    <li class="line__item">
+                        <h2 class="line__number">02</h2>
+                        <h3 class="line__subtitle">Choose the frequency</h3>
+                        <p class="line__subtext">Customize your order frequency, quantity, even your roast style and grind type. Pause, skip or cancel your subscription with no commitment through our online portal.</p>
+                    </li>
+                    <li class="line__item">
+                        <h2 class="line__number">03</h2>
+                        <h3 class="line__subtitle">Receive and enjoy!</h3>
+                        <p class="line__subtext">We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-class coffees curated to provide a distinct tasting experience.</p>
+                    </li>
+                </ul>
+            </section>
+            <section class="plan">
+                <ul class="plan__list">
+                    <li class="plan__item plan__item--first">
+                        <div class="plan__item--card">
+                            <h4 class="plan__number plan__number--first">01</h4>
+                            <h5 class="plan__name plan__name--first">Preferences</h5>
+                        </div>
+                        <hr class="plan__hr">
+                    </li>
+                    <li class="plan__item plan__item--second">
+                        <div class="plan__item--card">
+                            <h4 class="plan__number plan__number--second">02</h4>
+                            <h5 class="plan__name plan__name--second">Bean Type</h5> 
+                        </div>
+                        <hr class="plan__hr">
+                    </li>
+                    <li class="plan__item plan__item--third">
+                        <div class="plan__item--card">
+                            <h4 class="plan__number plan__number--third">03</h4>
+                            <h5 class="plan__name plan__name--third">Quantity</h5>
+                        </div>
+                        <hr class="plan__hr">
+                    </li>
+                    <li class="plan__item plan__item--fourth">
+                        <div class="plan__item--card">
+                            <h4 class="plan__number plan__number--fourth">04</h4>
+                            <h5 class="plan__name plan__name--fourth">Grind Option</h5>
+                        </div>
+                        <hr class="plan__hr">
+                    </li>
+                    <li class="plan__item plan__item--fifth">
+                        <div class="plan__item--card">
+                            <h4 class="plan__number plan__number--fifth">05</h4>
+                            <h5 class="plan__name plan__name--fifth">Deliveries</h5>
+                        </div>
+                    </li>
+                </ul>
+                <div class="plan__right">
+                    <ul class="plan__menu">
+                        <li class="plan__cards">
+                            <div class="plan__box">
+                                <h2 class="plan__title">How do you drink your coffee?</h2>
+                                <a href="#">
+                                    <img class="plan__img" src="./img/up.svg" alt="up">
+                                </a>
+                            </div>
+                            <ul class="plan__submenu">
+                                <li class="plan__subitem plan__subitem--first">
+                                    <a class="plan__btn" href="#">
+                                        <h5 class="plan__subtitle plan__subtitle--first">Capsule</h5>
+                                        <p class="plan__subtext plan__subtext--first">Compatible with Nespresso systems and similar brewers</p>
+                                    </a>
+                                </li>
+                                <li class="plan__subitem plan__subitem--second">
+                                    <a class="plan__btn" href="#">
+                                        <h5 class="plan__subtitle plan__subtitle--second">Filter</h5>
+                                        <p class="plan__subtext plan__subtext--second">For pour over or drip methods like Aeropress, Chemex, and V60</p>
+                                    </a>
+                                </li>
+                                <li class="plan__subitem plan__subitem--third">
+                                    <a class="plan__btn" href="#">
+                                        <h5 class="plan__subtitle plan__subtitle--third">Espresso</h5>
+                                        <p class="plan__subtext plan__subtext--third">Dense and finely ground beans for an intense, flavorful experience</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="plan__cards">
+                            <div class="plan__box">
+                                <h2 class="plan__title">What type of coffee?</h2>
+                                <a href="#">
+                                    <img class="plan__img" src="./img/up.svg" alt="up">
+                                </a>
+                            </div>
+                            <ul class="plan__submenu">
+                                <li class="plan__subitem plan__subitem--fourth">
+                                    <a class="plan__btn" href="#">
+                                        <h5 class="plan__subtitle plan__subtitle--fourth">Single Origin</h5>
+                                        <p class="plan__subtext plan__subtext--fourth">Distinct, high quality coffee from a specific family-owned farm</p>
+                                    </a>
+                                </li>
+                                <li class="plan__subitem plan__subitem--fifth">
+                                    <a class="plan__btn" href="#">
+                                        <h5 class="plan__subtitle plan__subtitle--fifth">Decaf</h5>
+                                        <p class="plan__subtext plan__subtext--fifth">Just like regular coffee, except the caffeine has been removed</p>
+                                    </a>
+                                </li>
+                                <li class="plan__subitem plan__subitem--sixth">
+                                    <a class="plan__btn" href="#">
+                                        <h5 class="plan__subtitle plan__subtitle--sixth">Blended</h5>
+                                        <p class="plan__subtext plan__subtext--sixth">Combination of two or three dark roasted beans of organic coffees</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="plan__cards">
+                            <div class="plan__box">
+                                <h2 class="plan__title">How much would you like?</h2>
+                                <a href="#">
+                                    <img class="plan__img" src="./img/up.svg" alt="up">
+                                </a>
+                            </div>
+                            <ul class="plan__submenu">
+                                <li class="plan__subitem plan__subitem--seventh">
+                                    <a class="plan__btn" href="#">
+                                        <h5 class="plan__subtitle plan__subtitle--seventh">250g</h5>
+                                        <p class="plan__subtext plan__subtext--seventh">Perfect for the solo drinker. Yields about 12 delicious cups.</p>
+                                    </a>
+                                </li>
+                                <li class="plan__subitem plan__subitem--eighth">
+                                    <a class="plan__btn" href="#">
+                                        <h5 class="plan__subtitle plan__subtitle--eighth">500g</h5>
+                                        <p class="plan__subtext plan__subtext--eighth">Perfect option for a couple. Yields about 40 delectable cups.</p>
+                                    </a>
+                                </li>
+                                <li class="plan__subitem plan__subitem--ninth">
+                                    <a class="plan__btn" href="#">
+                                        <h5 class="plan__subtitle plan__subtitle--ninth">1000g</h5>
+                                        <p class="plan__subtext plan__subtext--ninth">Perfect for offices and events. Yields about 90 delightful cups.</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="plan__cards">
+                            <div class="plan__box">
+                                <h2 class="plan__title">Want us to grind them?</h2>
+                                <a href="#">
+                                    <img class="plan__img" src="./img/up.svg" alt="up">
+                                </a>
+                            </div>
+                            <ul class="plan__submenu">
+                                <li class="plan__subitem plan__subitem--tenth">
+                                    <a class="plan__btn" href="#">
+                                        <h5 class="plan__subtitle plan__subtitle--tenth">Wholebean</h5>
+                                        <p class="plan__subtext plan__subtext--tenth">Best choice if you cherish the full sensory experience</p>
+                                    </a>
+                                </li>
+                                <li class="plan__subitem plan__subitem--eleventh">
+                                    <a class="plan__btn" href="#">
+                                        <h5 class="plan__subtitle plan__subtitle--eleventh">Filter</h5>
+                                        <p class="plan__subtext plan__subtext--eleventh">For drip or pour-over coffee methods such as V60 or Aeropress</p>
+                                    </a>
+                                </li>
+                                <li class="plan__subitem plan__subitem--twenteenth">
+                                    <a class="plan__btn" href="#">
+                                        <h5 class="plan__subtitle plan__subtitle--twenteenth">Cafetiére</h5>
+                                        <p class="plan__subtext plan__subtext--twenteenth">Course ground beans specially suited for french press coffee</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="plan__cards">
+                            <div class="plan__box">
+                                <h2 class="plan__title">How often should we deliver?</h2>
+                                <a href="#">
+                                    <img class="plan__img" src="./img/up.svg" alt="up">
+                                </a>
+                            </div>
+                            <ul class="plan__submenu">
+                                <li class="plan__subitem plan__subitem--thirteenth">
+                                    <a class="plan__btn" href="#">
+                                        <h5 class="plan__subtitle plan__subtitle--thirteenth">Every week</h5>
+                                        <p class="plan__subtext plan__subtext--thirteenth">$7.20 per shipment. Includes free first-class shipping.</p>
+                                    </a>
+                                </li>
+                                <li class="plan__subitem plan__subitem--fourteenth">
+                                    <a class="plan__btn" href="#">
+                                        <h5 class="plan__subtitle plan__subtitle--fourteenth">Every 2 weeks</h5>
+                                        <p class="plan__subtext plan__subtext--fourteenth">$9.60 per shipment. Includes free priority shipping.</p>
+                                    </a>
+                                </li>
+                                <li class="plan__subitem plan__subitem--fifteenth">
+                                    <a class="plan__btn" href="#">
+                                        <h5 class="plan__subtitle plan__subtitle--fifteenth">Every month</h5>
+                                        <p class="plan__subtext plan__subtext--fifteenth">$12.00 per shipment. Includes free priority shipping.</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="summary">
+                        <div class="summary__card">
+                            <p class="summary__title">order summary</p>
+                            <h4 class="summary__text">“I drink my coffee as <span class="summary__textgreen">Filter</span> , with a <span class="summary__textgreen">Decaf</span>  type of bean. <span class="summary__textgreen">250g</span>  ground ala <span class="summary__textgreen">Cafetiére</span> , sent to me <span class="summary__textgreen">Every Week</span> .”</h4>
+                        </div>
+                        <a class="summary__btn" href="subscribe.html">Create your plan</a>
+                    </div>
+                </div>
                 
-                <ul class="footer__nav-menu">
-                    <li class="footer__nav-item">
-                        <a class="footer__nav-link" href="#">home</a>
-                    </li>
-                    <li class="footer__nav-item">
-                        <a class="footer__nav-link" href="#">about us</a>
-                    </li>
-                    <li class="footer__nav-item">
-                        <a class="footer__nav-link" href="#">create your plan</a>
-                    </li>
-                </ul> 
-                <ul class="footer__nav-social">
-                    <li class="footer__nav-social-item">
-                        <a class="footer__nav-social-link" href="#">
-                            <img class="footer__nav-social-img" src="./img/facebook.svg" alt="facebook">
-                        </a>
-                    </li>
-                    <li class="footer__nav-social-item">
-                        <a class="footer__nav-social-link" href="#">
-                            <img class="footer__nav-social-img" src="./img/twitter.svg" alt="twitter">
-                        </a>
-                    </li>
-                    <li class="footer__nav-social-item">
-                        <a class="footer__nav-social-link" href="#">
-                            <img class="footer__nav-social-img" src="./img/instagram.svg" alt="instagram">
-                        </a>
-                    </li>
-                </ul> 
-            </nav>
-        </div>
-    </footer>
-</body>
-</html>
+            </div>
+        </main>
+        
+        <footer class="footer">
+            <div class="container">
+                <nav class="footer__nav">
+                    <a href="index.html">
+                        <img class="footer__nav-logo" src="./img/footer-logo.svg" alt="">
+                    </a>
+                    
+                    <ul class="footer__nav-menu">
+                        <li class="footer__nav-item">
+                            <a class="footer__nav-link" href="index.html">home</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a class="footer__nav-link" href="about.html">about us</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a class="footer__nav-link" href="subscribe.html">create your plan</a>
+                        </li>
+                    </ul> 
+                    <ul class="footer__nav-social">
+                        <li class="footer__nav-social-item">
+                            <a class="footer__nav-social-link" href="#">
+                                <img class="footer__nav-social-img" src="./img/facebook.svg" alt="facebook">
+                            </a>
+                        </li>
+                        <li class="footer__nav-social-item">
+                            <a class="footer__nav-social-link" href="#">
+                                <img class="footer__nav-social-img" src="./img/twitter.svg" alt="twitter">
+                            </a>
+                        </li>
+                        <li class="footer__nav-social-item">
+                            <a class="footer__nav-social-link" href="#">
+                                <img class="footer__nav-social-img" src="./img/instagram.svg" alt="instagram">
+                            </a>
+                        </li>
+                    </ul> 
+                </nav>
+            </div>
+        </footer>
+    </body>
+    </html>

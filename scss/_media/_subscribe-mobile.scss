@@ -1,0 +1,115 @@
+@media screen and (max-width: 375px) {
+    // -----------------------------------------------
+    .subscribe__intro{
+        margin-bottom: 120px;
+        padding: 101px 24px 136px 24px;
+        width: 327px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        
+        &-title{
+            text-align: center;
+            font-size: 40px;
+            line-height: 40px;
+            
+        }
+        &-text{
+            text-align: center;
+        }
+    }
+    // -------------------------------------------------------
+    .line{
+        margin: 0 auto;
+        margin-bottom: 120px;
+        padding: 80px 24px;
+        width: 375px;
+        
+        &__line{
+            display: none;
+        }
+        &__circle{
+            display: none;
+        }
+        &__menu{
+            display: flex;
+            align-items: center;
+            justify-content:center;
+            flex-direction: column;
+        }
+        &__item{
+            width: 100%;
+            margin-right: 0;
+            margin-bottom: 56px;
+            
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+        &__number{
+            text-align: center;
+            margin-bottom: 42px;
+        }
+        &__subtitle{
+            text-align: center;
+            margin-bottom: 38px;
+        }
+        &__subtext{
+            text-align: center;
+        }
+    }
+    // -----------------------------------------
+    .plan{
+        width: 328px;
+        margin: 0 auto;
+        margin-bottom: 144px;
+        display: flex;
+        
+        &__list{
+            display: none;
+        }
+        &__cards{
+            margin-bottom: 96px;
+            
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+        &__box{
+            margin-bottom: 40px;
+        }
+        &__title{
+            font-size: 24px;
+            line-height: 28px;
+            margin-right: 69px;
+        }
+        &__submenu{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        &__subitem{
+            margin-right: 0px;
+            margin-bottom: 16px;
+            padding: 24px;
+            
+            &:last-child{
+                margin-bottom: 0;
+            }
+            
+        }
+        &__subtitle{
+            margin-bottom: 8px;        
+        }
+    }
+    // ----------------------------------------
+    .summary{
+        margin-top: 120px;
+        
+        
+        &__card{
+            padding: 32px 24px;
+            margin-bottom: 56px;
+        }
+    }
+}
