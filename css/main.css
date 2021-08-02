@@ -86,6 +86,7 @@ li {
   width: 1280px;
   height: 600px;
   background-image: url("../img/Bitmap.png");
+  border-radius: 10px;
 }
 .header__intro-title {
   font-weight: 900;
@@ -334,7 +335,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0px 80px 88px 80px;
+  margin: 0px 80px 0px 80px;
   padding: 47px 85px;
   background: #2C343E;
 }
