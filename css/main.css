@@ -659,6 +659,9 @@ li {
 .plan__subitem--second:hover, .plan__subitem--fifth:hover, .plan__subitem--seventh:hover, .plan__subitem--twenteenth:hover, .plan__subitem--thirteenth:hover {
   background: #FDD6BA;
 }
+.plan__subitem:active {
+  background: #0E8784;
+}
 .plan__subitem:hover {
   background: #FDD6BA;
   color: #333D4B;
